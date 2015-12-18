@@ -7,11 +7,13 @@ Several Basic Data models.
 # Authors: Marcel Caraciolo <marcel@muricoca.com>
 # License: BSD Style
 
+import logging
 
 import numpy as np
+
 from .base import BaseDataModel
 from .utils import UserNotFoundError, ItemNotFoundError
-import logging
+
 
 logger = logging.getLogger('crab')
 
